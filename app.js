@@ -114,3 +114,6 @@ function saveFavorite() {
 
 // Event listener para el botón de favoritos
 btnFavoritos.addEventListener("click", saveFavorite);
+
+
+document.addEventListener("DOMContentLoaded", updateFavoritesList);
