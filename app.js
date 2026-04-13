@@ -27,7 +27,7 @@ btnBuscar.addEventListener("click", function () {
       `;
     })
     .catch(() => {
-      alert("Pokemun no encontrado");
+      alert("Pokemon no encontrado");
     });
 
 });
