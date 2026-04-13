@@ -31,4 +31,4 @@ h2, h3 {
 
 .form-control { border-radius: 20px 0 0 20px; border: none; }
 #btnBuscar { border-radius: 0 20px 20px 0; background-color: #3b4cca; border: none; }
-#btnFavoritos { border-radius: 20px; font-weight: bold; }
+#btnFavoritos, #btnEliminarTodos { border-radius: 20px; font-weight: bold; }

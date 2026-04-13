@@ -1,6 +1,7 @@
 const btnBuscar = document.getElementById("btnBuscar");
 const mostrarPokemon = document.getElementById("mostrarPokemon");
 const btnFavoritos = document.getElementById("btnFavoritos");
+const btnEliminarUno = document.getElementById("btnEliminarUno"); 
 const mostrarFavoritos = document.getElementById("mostrarFavoritos");
 
 
@@ -22,6 +23,14 @@ btnBuscar.addEventListener("click", function () {
     .catch(() => {
       alert("Pokemon no encontrado");
     });
+
+});
+
+btnEliminarTodos.addEventListener("click", function () {
+
+localStorage.removeItem("favoritos");
+
+updateFavoritesList();
 
 });
 
