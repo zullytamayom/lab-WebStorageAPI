@@ -37,6 +37,9 @@ btnBuscar.addEventListener("click", function () {
 
 
 
+
+
+
 function updateFavoritesList() {
     // Obtener contenedor
     const contenedor = document.getElementById("mostrarFavoritos");
