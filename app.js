@@ -1,7 +1,7 @@
 const btnBuscar = document.getElementById("btnBuscar");
 const mostrarPokemon = document.getElementById("mostrarPokemon");
 const btnFavoritos = document.getElementById("btnFavoritos");
-const btnEliminarUno = document.getElementById("btnEliminarUno"); 
+const btnEliminarTodos = document.getElementById("btnEliminarTodos"); 
 const mostrarFavoritos = document.getElementById("mostrarFavoritos");
 
 
