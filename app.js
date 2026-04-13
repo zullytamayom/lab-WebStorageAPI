@@ -27,7 +27,7 @@ btnBuscar.addEventListener("click", function () {
       `;
     })
     .catch(() => {
-      alert("Pokemun no encontrado");
+      alert("Pokemon no encontrado");
     });
 
 });
@@ -40,7 +40,8 @@ btnBuscar.addEventListener("click", function () {
 
 
 
-function updateFavoritesList() {
+function updateFavoritesList()
+{
     // Obtener contenedor
     const contenedor = document.getElementById("mostrarFavoritos");
 
@@ -51,7 +52,8 @@ function updateFavoritesList() {
     let favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
 
     // Recorrer favoritos
-    favoritos.forEach(pokemon => {
+    favoritos.forEach(pokemon =>
+        {
         const div = document.createElement("div");
 
         div.innerHTML = `
